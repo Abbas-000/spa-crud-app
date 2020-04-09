@@ -1,0 +1,27 @@
+.cover {
+  text-align: center;
+  padding: 50px;
+  cursor: pointer;
+}
+
+#signup {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-pencil, .fa-trash {
+  padding: 8px;
+}
+
+.fa-pencil:hover {
+  background-color: #0F0;
+  cursor: pointer;
+}
+
+.fa-trash:hover {
+  background-color: #F00;
+  cursor: pointer;
+}
